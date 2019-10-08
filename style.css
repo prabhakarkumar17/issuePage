@@ -1,0 +1,109 @@
+.container {
+    display: grid;
+}
+
+.assign {
+    width: 240px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.write {
+    background-color: white;
+    color: gray;
+    border: none;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.write:hover {
+    color: black;
+    border-bottom: 2px solid gray;
+}
+
+.write:active {
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid blue;
+}
+
+.mile {
+    width: 240px;
+    height: 35px;
+    margin-left: 40px;
+}
+
+.milestone {
+    margin-left: -17px;
+}
+
+.submitBtn {
+    margin-left: 25px;
+    display: inline-block;
+    color: black;
+    border: none;
+}
+
+p {
+    font-weight: bold;
+    font: 10px;
+    padding: 5px;
+}
+
+.submit {
+    width: 100px;
+}
+
+.cancel {
+    margin-left: 900px;
+    width: 100px;
+}
+
+.Date {
+    margin-left: 600px;
+    width: 100px;
+}
+
+.check {
+    float: left;
+}
+
+.checkBox {
+    width: 13px;
+    height: 13px;
+}
+
+label {
+    float: left;
+}
+
+.buttons {
+    border: 1px grey solid;
+    grid-row-gap: 0px;
+}
+
+#comment {
+    border: none;
+    padding: 4px;
+}
+
+input {
+    width: 950px;
+    height: 33px;
+}
+
+.text {
+    font-size: 16px;
+    padding-right: 50px;
+    padding-left: 45px;
+    text-align: justify;
+}
+
+.commentBox {
+    width: 942px;
+}
+
+#addTittle {
+    margin-left: 190px;
+}
